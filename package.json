@@ -1,25 +1,44 @@
 {
-  "name": "spgizmos",
-  "version": "1.0.0",
-  "description": "A jQuery library for SharePoint.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "Daniel Walker",
+  "bugs": {
+    "url": "https://github.com/spevilgenius/SPGizmos/issues"
   },
+  "description": "A jQuery library for SharePoint.",
+  "description_long": "A jQuery library for working with SharePoint including CSOM, REST, and other cool functions.",
+  "description_short": "A jQuery library for working with SharePoint",
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "bootstrap-v4-dev": "^4.0.0-alpha.6",
+    "del": "^3.0.0",
+    "electron": "^1.6.11",
+    "electron-connect": "^0.6.1",
+    "gulp": "^3.9.1",
+    "gulp-header": "^1.8.8",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8",
+    "path2": "^0.1.0",
+    "postcss-flexbugs-fixes": "^3.0.0"
+  },
+  "homepage": "https://github.com/spevilgenius/SPGizmos#readme",
+  "keywords": [
+    "SPSTools",
+    "SharePoint 2013",
+    "SharePoint 2010",
+    "SharePoint",
+    "REST",
+    "CSOM"
+  ],
+  "license": "MIT",
+  "main": "main.js",
+  "name": "spgizmos",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/spevilgenius/SPGizmos.git"
   },
-  "keywords": [
-    "SharePoint"
-  ],
-  "author": "Daniel Walker",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/spevilgenius/SPGizmos/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/spevilgenius/SPGizmos#readme",
-  "devDependencies": {
-    "electron": "^1.6.11"
-  }
+  "version": "1.0.0"
 }

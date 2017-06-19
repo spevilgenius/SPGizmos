@@ -2,4 +2,15 @@ All components installed from SPGizmos root folder!
 Should download as a dev dependency but use just in case.
 
 npm install electron --save-dev
+npm install electron-connect --save-dev
 npm install gulp --save-dev
+npm install gulp-postcss --save-dev
+npm install autoprefixer --save-dev
+npm install postcss-flexbugs-fixes --save-dev
+npm install gulp-sass --save-dev
+npm install path2 --save-dev
+npm install gulp-header --save-dev
+npm install del --save-dev
+npm install gulp-util --save-dev
+npm install gulp-rename --save-dev
+npm install bootstrap-v4-dev --save-dev
