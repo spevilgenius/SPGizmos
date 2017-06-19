@@ -1,0 +1,5 @@
+All components installed from SPGizmos root folder!
+Should download as a dev dependency but use just in case.
+
+npm install electron --save-dev
+npm install gulp --save-dev

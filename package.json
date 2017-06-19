@@ -1,0 +1,25 @@
+{
+  "name": "spgizmos",
+  "version": "1.0.0",
+  "description": "A jQuery library for SharePoint.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spevilgenius/SPGizmos.git"
+  },
+  "keywords": [
+    "SharePoint"
+  ],
+  "author": "Daniel Walker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spevilgenius/SPGizmos/issues"
+  },
+  "homepage": "https://github.com/spevilgenius/SPGizmos#readme",
+  "devDependencies": {
+    "electron": "^1.6.11"
+  }
+}
