@@ -18,6 +18,8 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-util": "^3.0.8",
+    "jquery": "^3.2.1",
+    "line-by-line": "^0.1.5",
     "path2": "^0.1.0",
     "postcss-flexbugs-fixes": "^3.0.0"
   },

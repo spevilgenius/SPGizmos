@@ -3,6 +3,8 @@ Should download as a dev dependency but use just in case.
 
 npm install electron --save-dev
 npm install electron-connect --save-dev
+npm install line-by-line --save-dev
+npm install jquery --save-dev
 npm install gulp --save-dev
 npm install gulp-postcss --save-dev
 npm install autoprefixer --save-dev

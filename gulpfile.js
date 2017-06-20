@@ -62,19 +62,15 @@ gulp.task('build-bootstrap-js', function () { //just copy them so that if the so
         .pipe(gulp.dest('app/js'));
 });
 
-gulp.task('restart', function () {
-    electron.restart;
-});
-
 gulp.task('go', () => {
     electron.start();
     //Watch js files and restart Electron if they change
     gulp.watch(['./app/js/*.js'], electron.restart);
     gulp.watch(['./main.js'], electron.restart);
     //watch css files, but only reload (no restart necessary)
-    //gulp.watch(['./app/css/*.css'], electron.reload);
-    //watch bootstrap sass files, but only reload (no restart necessary)
-    //gulp.watch(paths.bootstrap.scss, ['build-bootstrap-css', 'restart']);
+    gulp.watch(['./app/css/*.css'], electron.reload);
+    //watch bootstrap sass files, but only reload (no restart necessary). This actually will update the bootstrap css file in the app/css folder which in turn will cause a reload anyway.
+    gulp.watch(paths.bootstrap.scss, ['build-bootstrap-css']);
     //watch html
     gulp.watch(['./index.html'], electron.restart);
 });
@@ -82,7 +78,6 @@ gulp.task('go', () => {
 gulp.task('default', [
     'build-bootstrap-js',
     'build-bootstrap-css',
-    'go'
 ], function () {
-
+    gulp.start('go');
 });

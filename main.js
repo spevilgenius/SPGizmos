@@ -1,7 +1,23 @@
 const electron = require('electron');
 const { app, BrowserWindow } = electron;
+var windows = {};
 
-app.on('ready', () => {
-    let win = new BrowserWindow({ width: 1024, height: 768 });
-    win.loadURL(`file://${__dirname}/index.html`);
-})
+try {
+    app.on('window-all-closed', function () {
+        if (process.platform != 'darwin') {
+            app.quit();
+        }
+    });
+    app.on('ready', function () {
+        windows["main"] = new BrowserWindow({ width: 1000, height: 800, title: "SPGizmos", defaultEncoding: "utf8" });
+        windows["main"].loadURL('file://' + __dirname + '/index.html');
+        windows["main"].toggleDevTools();
+        windows["main"].on('closed', function () {
+            delete windows["main"];
+        });
+    });
+}
+catch (ex) {
+    console.log(ex);
+    ex.stack && console.log(ex.stack);
+}
