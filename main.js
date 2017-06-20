@@ -9,7 +9,7 @@ try {
         }
     });
     app.on('ready', function () {
-        windows["main"] = new BrowserWindow({ width: 1000, height: 800, title: "SPGizmos", defaultEncoding: "utf8" });
+        windows["main"] = new BrowserWindow({ width: 1200, height: 900, title: "SPGizmos", defaultEncoding: "utf8" });
         windows["main"].loadURL('file://' + __dirname + '/index.html');
         windows["main"].toggleDevTools();
         windows["main"].on('closed', function () {

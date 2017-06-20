@@ -23,7 +23,7 @@ var
         sass: ['src/styles/**/*.scss'],
         bootstrap: {
             scripts: ['node_modules/bootstrap-v4-dev/dist/js/*.js'], // just copying the script as I am not changing this
-            scss: ['node_modules/bootstrap-v4-dev/scss/*.scss'], // does not need to include the mixins or partials as the base bootstrap.scss does this
+            scss: ['src/bootstrap/scss/*.scss'], // does not need to include the mixins or partials as the base bootstrap.scss does this
         }
     },
     banner = "/*\n" +
