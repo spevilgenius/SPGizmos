@@ -4482,6 +4482,32 @@ button.close {
   color: #fff;
   text-align: center; }
 
+.cal {
+  position: relative;
+  padding: 10px, 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+  .cal .spg-cal-hdr-row {
+    min-height: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    /*border-bottom: 1px solid $spg-cal-border-color;*/ }
+  .cal .spg-cal-hdr-cell {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-top: 1px solid #0275d8;
+    border-right: 1px solid #0275d8;
+    border-bottom: 1px solid #0275d8; }
+  .cal .spg-cal-hdr-cell:first-child {
+    border-left: 1px solid #0275d8; }
+  .cal .spg-cal-row {
+    min-height: 120px;
+    margin-left: 0;
+    margin-right: 0; }
+  .cal .cal-lg .spg-cal-row {
+    min-height: 200px; }
+
 .align-baseline {
   vertical-align: baseline !important; }
 

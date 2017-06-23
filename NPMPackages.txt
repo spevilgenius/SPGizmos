@@ -3,6 +3,7 @@ Should download as a dev dependency but use just in case.
 
 npm install electron --save-dev
 npm install electron-connect --save-dev
+npm install electron-tabs --save
 npm install line-by-line --save-dev
 npm install jquery --save-dev
 npm install gulp --save-dev
@@ -16,3 +17,5 @@ npm install del --save-dev
 npm install gulp-util --save-dev
 npm install gulp-rename --save-dev
 npm install bootstrap-v4-dev --save-dev
+npm install tether --save-dev
+npm install fullcalendar --save

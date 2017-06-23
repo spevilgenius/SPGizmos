@@ -21,7 +21,8 @@
     "jquery": "^3.2.1",
     "line-by-line": "^0.1.5",
     "path2": "^0.1.0",
-    "postcss-flexbugs-fixes": "^3.0.0"
+    "postcss-flexbugs-fixes": "^3.0.0",
+    "tether": "^1.4.0"
   },
   "homepage": "https://github.com/spevilgenius/SPGizmos#readme",
   "keywords": [
@@ -42,5 +43,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "dependencies": {
+    "electron-tabs": "^0.6.1",
+    "fullcalendar": "^3.4.0"
+  }
 }

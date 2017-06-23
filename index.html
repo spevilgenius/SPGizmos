@@ -7,11 +7,13 @@
 <body>
     <div class="container-fluid">
         <!--  Navbars  -->
-        <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+        <h3>Navbar Example</h3>
+        <br />
+        <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">SPGizmos</a>
 
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
@@ -40,10 +42,6 @@
             </div>
         </nav>
         <br />
-        <br />
-        <br />
-        <h3>Navbar Example (Above)</h3>
-        <br />
         <h3>Jumbotron</h3>
         <br/>
         <!-- Main jumbotron for a primary marketing message or call to action -->
@@ -54,9 +52,98 @@
                 <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
             </div>
         </div>
-        
+        <br />
+        <h3>cals (Custom Component - Requires cal Script)</h3>
+        <br />
+        <!--<div class="cal cal-lg">
+            <div class="container-fluid">
+                <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarscal" aria-controls="navbarscal" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">cal</a>
+
+                    <div class="collapse navbar-collapse" id="navbarscal">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Month</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Week</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Day</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search cal</button>
+                        </form>
+                    </div>
+                </nav>
+                <div class="row spg-cal-hdr-row">
+                    <div class="col-lg-1 col-xl-1 spg-cal-hdr-cell">Sunday</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-hdr-cell">Monday</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-hdr-cell">Tuesday</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-hdr-cell">Wednesday</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-hdr-cell">Thursday</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-hdr-cell">Friday</div>
+                    <div class="col-lg-1 col-xl-1 spg-cal-hdr-cell">Saturday</div>
+                </div>
+                <div class="row spg-cal-row">
+                    <div class="col-lg-1 col-xl-1 spg-cal-cell">
+                        <div class="spg-cal-datebox"></div>
+                    </div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-1 col-xl-1 spg-cal-cell">Day</div>
+                </div>
+                <div class="row spg-cal-row">
+                    <div class="col-lg-1 col-xl-1 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-1 col-xl-1 spg-cal-cell">Day</div>
+                </div>
+                <div class="row spg-cal-row">
+                    <div class="col-lg-1 col-xl-1 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-1 col-xl-1 spg-cal-cell">Day</div>
+                </div>
+                <div class="row spg-cal-row">
+                    <div class="col-lg-1 col-xl-1 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-1 col-xl-1 spg-cal-cell">Day</div>
+                </div>
+                <div class="row spg-cal-row">
+                    <div class="col-lg-1 col-xl-1 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-2 col-xl-2 spg-cal-cell">Day</div>
+                    <div class="col-lg-1 col-xl-1 spg-cal-cell">Day</div>
+                </div>
+            </div>
+        </div>-->
+
+
     </div>
     <script>window.$ = window.jQuery = require('jquery');</script>
+    <script type="text/javascript" src="./app/js/tether.js"></script>
     <script type="text/javascript" src="./app/js/bootstrap.js"></script>
     <script type="text/javascript" src="./app/js/app.js"></script>
 </body>

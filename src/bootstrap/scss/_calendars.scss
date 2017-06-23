@@ -1,0 +1,37 @@
+.cal {
+    position: relative;
+    padding: $spg-cal-padding-y, $spg-cal-padding-x;
+    box-sizing: border-box;
+
+    .spg-cal-hdr-row {
+        min-height: $spg-cal-hdr-row-height;
+        margin-left: 0;
+        margin-right: 0;
+        /*border-bottom: 1px solid $spg-cal-border-color;*/
+    }
+
+    .spg-cal-hdr-cell {
+        display: flex;
+        border-top: 1px solid $spg-cal-border-color;
+        border-right: 1px solid $spg-cal-border-color;
+        border-bottom: 1px solid $spg-cal-border-color;
+    }
+
+    .spg-cal-hdr-cell:first-child {
+        border-left: 1px solid $spg-cal-border-color;
+    }
+
+    .spg-cal-row {
+        min-height: $spg-cal-row-height;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+
+    .cal-lg {
+        .spg-cal-row {
+            min-height: $spg-cal-row-height-lg;
+        }
+    }
+}
